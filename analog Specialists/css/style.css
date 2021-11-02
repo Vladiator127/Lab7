@@ -7,21 +7,21 @@ body {
 #page {
   max-width: 940px;
   min-width: 720px;
-  margin: 10px, auto, 10px, auto;
-  padding:20px, 20px, 20px, 20px;
+  margin: auto;
+  padding:20px;
   border:4px double #000;
   background-color:#ffffff;
 }
 #logo {
   width:150px;
-  margin:10px, auto, 25px, auto;
+  margin: auto;
 }
 
 
 ul {
-  width:570px;
+  width:670px;
   padding:15px;
-  margin:0px, auto, 0px, auto;
+  margin:0px auto;
   border-top:2px solid #000;
   border-bottom:1px solid #000;
   text-align: center;
@@ -52,7 +52,7 @@ a:hover, a.on {
   /*Style For sale.html */
 
 table{
-  width: 60%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -75,7 +75,7 @@ table{
 
 
   td.description {
-    text-align: center:
+    text-align: center;
     padding: 5px;
     margin: 0px;
   }
@@ -91,16 +91,21 @@ table{
     }
 
     div.container {
-      align text: center;
-      padding:top 10px right 20px;
+      text-align: center;
+      padding: 10px 20px;
     }
 
-    /*Style For contact.html */
+
+    div.container p{
+      width: 425px;
+    }
+
+
 
 
 form{
     margin:15px;
-    width:60%;
+    width:75%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -139,3 +144,17 @@ textarea {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+  #navigation{
+    text-align:center;
+    margin: auto;
+  }
+
+  tr.navMargin{
+    margin: 50%;
+    padding: 50%;
+  }
+
+  th.Desc{
+    border-width:50%;
+  }

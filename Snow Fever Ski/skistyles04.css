@@ -1,18 +1,14 @@
-/*Your Name and today's date */
+/*Alex Abreu 11/02 */
 
 body {
-	  /*
-		set color to #FFFFFF;
-	  set background-color to #C9E4FF;
-	  set font-family to Calibri, sans-serif;
-		*/
+		color:#FFFFFF;
+	  background-color: #C9E4FF;
+	  font-family: Calibri, sans-serif;
 }
 
 #outer-wrapper {
-	      /*
-				make the width of 90%
-				set margin top 0, right auto, bottom 0, left auto; Use shorthand.
-				*/
+				width: 90%;
+				margin-top: 0 auto;
 }
 
 header, nav, #content, footer
